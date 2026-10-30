@@ -2,10 +2,10 @@
 ======================================================
   Creating Database and Schema 
 ======================================================
-Here we are dropping the database if it already exists and creating a new database. 
+Here we are dropping the database if it already exists and creating a new database named 'Datawarehouse'. 
 Then new schemas are created: 'bronze', 'silver', 'gold' 
 
-Warning: Make sure to have a backup, as this is going to completely delete it.
+Warning: Make sure to have a backup, as this is going to permanently delete it.
 */
 -------------------------------------------------------------------------------------
 
