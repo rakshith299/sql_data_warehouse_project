@@ -2,7 +2,7 @@
 The gold layer has business-interpretation-ready data. Contains fact and dimension tables 
 
 -----------------------------------------------------------------------------------------------
-## gold.dim_customers 
+## 1. gold.dim_customers 
 
 | Column name | Data type | Description |
 |---|---|---| 
@@ -18,7 +18,7 @@ The gold layer has business-interpretation-ready data. Contains fact and dimensi
 | create_date | DATE | Date the customer record was first created |
 
 
-## gold.dim_products 
+## 2. gold.dim_products 
 
 | Column name | Data type | Description | 
 |---|---|---|
