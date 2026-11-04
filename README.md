@@ -1,37 +1,37 @@
-# Data Warehouse Project 
+# **Data Warehouse Project**
 
   This project demonstrates a data warehouse built for business-ready analytics. 
 
 -------------------------------------------------------------------------------------------------
 
-## Overview 
+## **Overview** 
 
 This Project involves:
 
-#### Data Architecture: 
+#### * Data Architecture: 
   Used the Medallion Architecture: Bronze, Silver, and Gold layers 
-#### ETL Pipelines: 
+#### * ETL Pipelines: 
   Extract, Transform, Load data from source systems to the data warehouse
-#### Data modelling: 
+#### * Data modelling: 
   Developing fact and dimension tables that are optimized for analytical queries
 
 -------------------------------------------------------------------------------------------------
 
-## Project requirement 
+## **Project requirement** 
 
-#### Objective
+#### **Objective**
   Develop a modern data warehouse using SQL Server to consolidate sales analytics, which is enabled for analytical reporting 
 
-#### Specifications 
+#### **Specifications** 
 
-#### Data Sources: Import Data from source systems (ERP and CRM) as CSV files
-#### Data quality: Clean and resolve data quality issues  
-#### Integration: Combine both source files into a single user-friendly data model 
-#### Scope: Historisation data is not required; focus on the latest data
+#### * Data Sources: Import Data from source systems (ERP and CRM) as CSV files
+#### * Data quality: Clean and resolve data quality issues  
+#### * Integration: Combine both source files into a single user-friendly data model 
+#### * Scope: Historisation data is not required; focus on the latest data
 
 -------------------------------------------------------------------------------------------------
 
-## Data Warehouse Architecture 
+## **Data Warehouse Architecture** 
 
 ![Data Warehouse Architecture](docs/Medallion%20Data%20Architecture.drawio.png)
 
