@@ -31,11 +31,7 @@ This Project involves:
 
 -------------------------------------------------------------------------------------------------
 
-![Data Warehouse Architecture](docs/Data flow Diagram.drawio.png)
-
-
-
-## [Data Warehouse Architecture](docs/Medallion%20Data%20Architecture%20file.png)
+## ![Data Warehouse Architecture](docs/Medallion%20Data%20Architecture%20file.png)
 
 -------------------------------------------------------------------------------------------------
 
