@@ -33,7 +33,7 @@ This Project involves:
 
 ## Data Warehouse Architecture 
 
-![Data Warehouse Architecture](docs/Medallion%20Data%20Architecture%20file.png)
+![Data Warehouse Architecture](docs/Medallion%20Data%20Architecture.png)
 
 -------------------------------------------------------------------------------------------------
 
