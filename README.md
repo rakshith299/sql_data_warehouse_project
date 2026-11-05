@@ -11,7 +11,7 @@ This Project involves:
 #### * Data Architecture: 
   Used the Medallion Architecture: Bronze, Silver, and Gold layers 
 #### * ETL Pipelines: 
-  Extract, Transform, Load data from source systems to the data warehouse
+  Extract, Transform, and Load data from source systems to the data warehouse
 #### * Data modelling: 
   Developing fact and dimension tables that are optimized for analytical queries
 
@@ -37,5 +37,26 @@ This Project involves:
 
 -------------------------------------------------------------------------------------------------
 
+## **Repository Structure** 
+
+sql_data_warehouse_project/
+│
+├── datasets/
+│
+├── docs/
+│   └── Medallion Data Architecture.png
+│   └── Data flow Diagram.png 
+│   └── data_catalog.md
+│   └── entity relation table.png    
+│
+├── scripts/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+├── LICENSE
+└── README.md
+
+---------------------------------------------------------------------------------------------------
 
 
