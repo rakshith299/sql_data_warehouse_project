@@ -4,7 +4,7 @@
 
 -------------------------------------------------------------------------------------------------
 
-## **Overview** 
+## 📌 **Overview** 
 
 This Project involves:
 
@@ -17,7 +17,7 @@ This Project involves:
 
 -------------------------------------------------------------------------------------------------
 
-## **Project requirement** 
+## 🧰 **Project requirement** 
 
 #### **Objective**
   Develop a modern data warehouse using SQL Server to consolidate sales analytics, which is enabled for analytical reporting 
@@ -37,7 +37,7 @@ This Project involves:
 
 -------------------------------------------------------------------------------------------------
 
-## **Repository Structure** 
+## 📁 **Repository Structure** 
 
 ```
 
