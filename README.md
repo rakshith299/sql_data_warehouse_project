@@ -39,7 +39,7 @@ This Project involves:
 
 ## **Repository Structure** 
 
-\\\
+```
 
 sql_data_warehouse_project/
 │
@@ -59,7 +59,7 @@ sql_data_warehouse_project/
 ├── LICENSE
 └── README.md
 
-\\\
+```
 
 ---------------------------------------------------------------------------------------------------
 
