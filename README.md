@@ -44,7 +44,9 @@ This Project involves:
 sql_data_warehouse_project/
 │
 ├── datasets/
-│
+│   └──source_crm
+│   └──source_erp
+│ 
 ├── docs/
 │   └── Medallion Data Architecture.png
 │   └── Data flow Diagram.png 
