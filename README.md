@@ -39,6 +39,8 @@ This Project involves:
 
 ## **Repository Structure** 
 
+\\\
+
 sql_data_warehouse_project/
 │
 ├── datasets/
@@ -56,6 +58,8 @@ sql_data_warehouse_project/
 │
 ├── LICENSE
 └── README.md
+
+\\\
 
 ---------------------------------------------------------------------------------------------------
 
