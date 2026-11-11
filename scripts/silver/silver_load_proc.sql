@@ -210,22 +210,23 @@ BEGIN
 			END AS sls_due_dt, 
 
 			CASE 
-				WHEN sls_sales IS NULL OR sls_sales <= 0 OR sls_sales != sls_quantity * ABS(sls_price) 
-					THEN sls_quantity * ABS(sls_price) 
-				ELSE sls_sales 
+				WHEN sls_sales IS NULL OR sls_sales <= 0 OR sls_sales != ABS(sls_quantity) * ABS(sls_price)
+					THEN ABS(sls_quantity) * ABS(sls_price) 
+				ELSE ABS(sls_sales) 
 			END AS sls_sales,
 
 			sls_quantity,
+			price_fixed AS sls_price
 
-			CASE 
-				WHEN sls_price IS NULL OR sls_price <= 0 OR sls_price != sls_sales / sls_quantity 
-					THEN sls_sales / NULLIF(sls_quantity, 0) 
-				ELSE sls_price 
-			END AS sls_price
-
-
-	
-		FROM bronze.crm_sales_details 
+			FROM (
+				SELECT 
+					*,
+					CASE 
+						WHEN sls_price IS NULL OR sls_price <= 0 THEN ABS(sls_sales) / NULLIF(sls_quantity, 0)
+						ELSE ABS(sls_price)
+					END AS price_fixed
+					FROM bronze.crm_sales_details
+			) AS tt
 
 		SET @end_time = GETDATE(); 
 
