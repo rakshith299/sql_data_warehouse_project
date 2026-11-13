@@ -12,7 +12,7 @@ Creating Views for Gold Schema
 -------------------------------------------------------------------------------------------------------------------
 
 
-IF OBJECT_ID ('gold.dim_customers', 'U') IS NOT NULL 
+IF OBJECT_ID ('gold.dim_customers', 'V') IS NOT NULL 
   DROP VIEW gold.dim_customers;
 
 GO 
@@ -39,7 +39,7 @@ FROM silver.crm_cust_info AS ci LEFT JOIN silver.erp_CUST_AZ12 AS ca
 	ON ci.cst_key = ca.CID LEFT JOIN silver.erp_LOC_A101 AS la 
 	ON ci.cst_key = la.CID
 
-IF OBJECT_ID ('gold.dim_products', 'U') IS NOT NULL 
+IF OBJECT_ID ('gold.dim_products', 'V') IS NOT NULL 
   DROP VIEW gold.dim_products;
 
 GO 
@@ -61,9 +61,9 @@ SELECT
 
 FROM silver.crm_prd_info AS pin LEFT JOIN silver.erp_PX_CAT_G1V2 AS pc ON 
 	pin.cat_id = pc.ID 
-WHERE pin.prd_end_dt IS NULL 
+ 
 
-IF OBJECT_ID ('gold.fact_sales', 'U') IS NOT NULL 
+IF OBJECT_ID ('gold.fact_sales', 'V') IS NOT NULL 
   DROP VIEW gold.fact_sales;
 
 GO 
