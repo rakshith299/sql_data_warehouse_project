@@ -27,7 +27,7 @@ This Project involves:
 #### * Data Sources: Import Data from source systems (ERP and CRM) as CSV files
 #### * Data quality: Clean and resolve data quality issues  
 #### * Integration: Combine both source files into a single user-friendly data model 
-#### * Scope: Historisation data is not required; focus on the latest data
+#### * Scope: Historisation of product price is retained
 
 -------------------------------------------------------------------------------------------------
 
